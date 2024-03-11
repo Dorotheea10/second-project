@@ -1,13 +1,13 @@
 import React from "react";
-import ButtonComponent from "./ButtonComponent";
-import ImageComponent from "./ImageComponent";
+import ButtonComponent from "./Components/ButtonComponent";
+import ImageComponent from "./Components/ImageComponent";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <ButtonComponent buttonText="Cliccami!" />
-      <ImageComponent src="url-dell-immagine.jpg" altText="Descrizione dell'immagine" />
+      <ImageComponent src="https://placedog.net/640/480?r" altText="randomdog" />
     </div>
   );
 }
